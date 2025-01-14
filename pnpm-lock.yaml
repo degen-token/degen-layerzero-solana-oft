@@ -54,6 +54,9 @@ importers:
       '@layerzerolabs/lz-v2-utilities':
         specifier: ^3.0.12
         version: 3.0.39
+      '@layerzerolabs/metadata-tools':
+        specifier: ^0.1.0
+        version: 0.1.0(@layerzerolabs/devtools-evm-hardhat@2.0.4(w7umedefueacu535rkl3jw6c5a))(@layerzerolabs/ua-devtools@3.0.2(4jpucdkyrp6svt4ker2izrtbv4))
       '@layerzerolabs/oapp-evm':
         specifier: ^0.3.0
         version: 0.3.0(cgwmx5m4pvlhghlfutakbkm2du)
@@ -982,6 +985,12 @@ packages:
 
   '@layerzerolabs/lz-v2-utilities@3.0.39':
     resolution: {integrity: sha512-pqekXlMHk+rAfUXgUhmKz24nGgj/cqmoqyjUueuZTwhz/nGRmS/9+ImUo8JEFHP/gsIZN+JFg/6Unqhqah078g==}
+
+  '@layerzerolabs/metadata-tools@0.1.0':
+    resolution: {integrity: sha512-h7VHGLWx8uCN2iNVEeCfHvTPEZjRq7LxK17NUlnM+WDqtS8bugLokpqvavqTTE4FL0PFCRdKVBEfUQQ9Q0HFKA==}
+    peerDependencies:
+      '@layerzerolabs/devtools-evm-hardhat': ~2.0.4
+      '@layerzerolabs/ua-devtools': ~3.0.2
 
   '@layerzerolabs/oapp-evm@0.3.0':
     resolution: {integrity: sha512-eP0zqNx72TQE11exObw7eYt5uwGuUv0kKtatYO/+dZuEjfhUdR9H6dj1CIbn/ozeKT56rZwj9LtSkDGl7FnqVw==}
@@ -6799,7 +6808,7 @@ snapshots:
 
   '@ethereumjs/tx@3.4.0':
     dependencies:
-      '@ethereumjs/common': 2.6.0
+      '@ethereumjs/common': 2.6.5
       ethereumjs-util: 7.1.5
 
   '@ethereumjs/tx@3.5.2':
@@ -6817,8 +6826,8 @@ snapshots:
     dependencies:
       '@ethereumjs/block': 3.6.3
       '@ethereumjs/blockchain': 5.5.3
-      '@ethereumjs/common': 2.6.0
-      '@ethereumjs/tx': 3.4.0
+      '@ethereumjs/common': 2.6.5
+      '@ethereumjs/tx': 3.5.2
       async-eventemitter: 0.2.4
       core-js-pure: 3.39.0
       debug: 2.6.9
@@ -7664,6 +7673,11 @@ snapshots:
       '@ethersproject/solidity': 5.7.0
       bs58: 5.0.0
       tiny-invariant: 1.3.3
+
+  '@layerzerolabs/metadata-tools@0.1.0(@layerzerolabs/devtools-evm-hardhat@2.0.4(w7umedefueacu535rkl3jw6c5a))(@layerzerolabs/ua-devtools@3.0.2(4jpucdkyrp6svt4ker2izrtbv4))':
+    dependencies:
+      '@layerzerolabs/devtools-evm-hardhat': 2.0.4(w7umedefueacu535rkl3jw6c5a)
+      '@layerzerolabs/ua-devtools': 3.0.2(4jpucdkyrp6svt4ker2izrtbv4)
 
   '@layerzerolabs/oapp-evm@0.3.0(cgwmx5m4pvlhghlfutakbkm2du)':
     dependencies:
@@ -9039,7 +9053,7 @@ snapshots:
   abstract-leveldown@6.2.3:
     dependencies:
       buffer: 5.7.1
-      immediate: 3.2.3
+      immediate: 3.3.0
       level-concat-iterator: 2.0.1
       level-supports: 1.0.1
       xtend: 4.0.2
