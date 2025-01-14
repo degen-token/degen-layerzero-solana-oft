@@ -135,7 +135,7 @@ export default async function () {
             baseContract,
             solanaContract,
             [['Nethermind', 'LayerZero Labs'], []], // Solana DVNs and Base DVNs
-            [10, 10], // confirmations for send and receive
+            [10, 32], // confirmations for send and receive
             [SOLANA_ENFORCED_OPTIONS, EVM_ENFORCED_OPTIONS],
         ],
 
@@ -144,7 +144,7 @@ export default async function () {
             ethereumContract,
             solanaContract,
             [['Nethermind', 'LayerZero Labs'], []], // Solana DVNs and Ethereum DVNs
-            [15, 10], // confirmations for send and receive
+            [15, 32], // confirmations for send and receive
             [SOLANA_ENFORCED_OPTIONS, EVM_ENFORCED_OPTIONS],
         ],
 
@@ -153,7 +153,7 @@ export default async function () {
             arbitrumContract,
             solanaContract,
             [['Nethermind', 'LayerZero Labs'], []], // Solana DVNs and Arbitrum DVNs
-            [20, 10], // confirmations for send and receive
+            [20, 32], // confirmations for send and receive
             [SOLANA_ENFORCED_OPTIONS, EVM_ENFORCED_OPTIONS],
         ],
 
@@ -162,7 +162,7 @@ export default async function () {
             degenContract,
             solanaContract,
             [['Nethermind', 'LayerZero Labs'], []], // Solana DVNs and Degen DVNs
-            [21, 10], // confirmations for send and receive
+            [21, 32], // confirmations for send and receive
             [SOLANA_ENFORCED_OPTIONS, EVM_ENFORCED_OPTIONS],
         ],
     ])
