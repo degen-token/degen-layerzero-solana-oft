@@ -25,7 +25,7 @@ export const degenContract: OmniPointHardhat = {
 
 export const solanaContract: OmniPointHardhat = {
     eid: EndpointId.SOLANA_V2_MAINNET,
-    address: 'A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz', // your OFT Store address
+    address: 'EYdX37fyQr1RAEiCU8PkxbitmLKv2hfLcz1e56pPv8Wg', // your OFT Store address
 }
 
 const EVM_ENFORCED_OPTIONS: OAppEnforcedOption[] = [
