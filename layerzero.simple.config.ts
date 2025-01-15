@@ -80,7 +80,7 @@ export default async function () {
         [
             baseContract,
             ethereumContract,
-            [['Stargate', 'LayerZero Labs', 'Polyhedra'], []],
+            [['Stargate', 'LayerZero Labs'], []],
             [10, 15], // confirmations for send and receive
             [EVM_ENFORCED_OPTIONS, EVM_ENFORCED_OPTIONS],
         ],
@@ -89,7 +89,7 @@ export default async function () {
         [
             baseContract,
             arbitrumContract,
-            [['Stargate', 'LayerZero Labs', 'Polyhedra'], []],
+            [['Stargate', 'LayerZero Labs'], []],
             [10, 20], // confirmations for send and receive
             [EVM_ENFORCED_OPTIONS, EVM_ENFORCED_OPTIONS],
         ],
@@ -107,7 +107,7 @@ export default async function () {
         [
             ethereumContract,
             arbitrumContract,
-            [['Stargate', 'LayerZero Labs', 'Polyhedra'], []],
+            [['Stargate', 'LayerZero Labs'], []],
             [15, 20], // confirmations for send and receive
             [EVM_ENFORCED_OPTIONS, EVM_ENFORCED_OPTIONS],
         ],
