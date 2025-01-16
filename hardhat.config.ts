@@ -64,6 +64,31 @@ const config: HardhatUserConfig = {
             url: process.env.RPC_URL_SEPOLIA || 'https://gateway.tenderly.co/public/sepolia',
             accounts,
         },
+        arbitrum: {
+            eid: EndpointId.ARBITRUM_V2_MAINNET,
+            url: process.env.RPC_URL_ARBITRUM || 'https://arb1.arbitrum.io/rpc',
+            accounts,
+        },
+        base: {
+            eid: EndpointId.BASE_V2_MAINNET,
+            url: process.env.RPC_URL_BASE || 'https://mainnet.base.org',
+            accounts,
+        },
+        ethereum: {
+            eid: EndpointId.ETHEREUM_V2_MAINNET,
+            url: process.env.RPC_URL_ETHEREUM || 'https://mainnet.gateway.tenderly.co',
+            accounts,
+        },
+        degen: {
+            eid: EndpointId.DEGEN_V2_MAINNET,
+            url: process.env.RPC_URL_DEGEN || 'https://rpc.degen.tips',
+            accounts,
+        },
+        solana: {
+            eid: EndpointId.SOLANA_V2_MAINNET,
+            url: process.env.RPC_URL_SOLANA || 'https://api.mainnet-beta.solana.com',
+            accounts,
+        },
         hardhat: {
             // Need this for testing because TestHelperOz5.sol is exceeding the compiled contract size limit
             allowUnlimitedContractSize: true,
